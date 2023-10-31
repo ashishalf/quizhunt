@@ -1,0 +1,45 @@
+.quiz-header{
+  padding: 1rem;
+}
+h3{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.unorderlist{
+  list-style-type: none;
+  padding: 0;
+}
+.unorderlist li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.unorderlist li label{
+  cursor: pointer;
+}
+#submit{
+  background-color:rgb(52,58,64);
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+  border-radius: 5px;
+}
+#submit:hover{
+  background-color: rgb(43, 48, 53);
+}
+#submit:focus{
+  outline: none;
+  background-color:rgb(58, 128, 87);
+}
+input[type=radio] {
+  /* border: 0px; */
+  width: 2em;
+  height: 1em;
+  /* margin-right: 10px; */
+}

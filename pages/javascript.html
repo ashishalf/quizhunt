@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link
+  rel="stylesheet"
+  href="../styles/style.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+<!-- fontawesome -->
+<link
+  rel="stylesheet"
+  href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+/>
+
+<link rel="icon" type="image/png" href="../assets/favicon.png" />
+
+
+<!-- style questions -->
+<link rel="stylesheet" href="../styles/stylequiz.css" />
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="../styles/stylefont.css" />
+
+
+  <title>JavaScript : QuizHunt</title>
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <a class="navbar-brand mx-4" href="../index.html"><span style="color:rgb(58, 128, 87); font-weight: bolder; font-size: 30px; font-family: 'Courier New', Courier, monospace;">Q</span>uizHunt</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mx-4">
+              <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./playquiz.html">Quizzes</a>
+              </li>   
+          </ul>
+          <span class="navbar-text mx-4">
+            <a
+              href="https://github.com/ashishalf/quizhunt.github.io/blob/master/CONTRIBUTE.md" target="_blank"
+              ><button class="btn btn-light btn-md">
+                Contribute to QuizHunt
+                <i
+                  class="fa-brands fa-github mx-2"
+                  style="font-size: 20px"
+                ></i></button></a
+          ></span>
+      </div>
+  </nav>
+
+  <div class="container">
+        <h2 class="text-center mb-4">JavaScript Quiz</h2>
+    
+    <div class="jumbotron">
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h3 id="question">Question</h3>
+          <ul class="unorderlist">
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">Answer</label>
+            </li>
+    
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Submit</button>
+      </div> 
+    <center><label for="text" style="margin-top :30px;">More Quizzes are here - <a href="./playquiz.html">Click Here</a></label></center>
+    </div>
+  </div><br>
+
+
+  <footer>
+    <div class="b-example-divider"></div>
+
+    <div class="bg-dark text-secondary px-4 py-3 ">
+      <div class="py-5 text-center">
+        <h1 class="fs-5 mb-4"><span style="font-family: 'Courier New', Courier, monospace; font-weight: bolder; font-size:50px;">Q</span>uizHunt</h1>
+        <div>
+          <a href="https://www.producthunt.com/posts/quizhunt?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-quizhunt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=385615&theme=light" alt="QuizHunt - Be&#0032;ready&#0046;&#0032;Be&#0032;smart&#0046;&#0032;Be&#0032;noticed&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        </div>
+        <div class="col-lg-6 mx-auto mt-4">
+            <a href="./about.html" class="px-2 text-white" >About</a>
+            <a href="./contact.html" class="px-2 text-white">Contact</a>       
+            <a href="./policy.html" class="px-2 text-white">Privacy Policy</a>       
+            <a href="./termcondition.html" class="px-2 text-white">Term & Condition</a>       
+        </div>
+     </div>
+
+    <div class="d-flex justify-content-center" >
+      <div>
+        <span class="navbar-text mx-4">
+          <a
+            href="https://github.com/ashishalf/quizhunt.github.io/blob/master/CONTRIBUTE.md" target="_blank"
+            ><button class="btn btn-light btn-md">
+              Contribute to QuizHunt
+              <i
+                class="fa-brands fa-github mx-2"
+                style="font-size: 20px"
+              ></i></button></a
+        ></span>
+      </div>
+        
+    </div>
+    
+    <hr style="height:2px;border-width:0; background-color:rgb(58, 128, 87)">
+    <p class="text-center">© QuizHunt 2023 | All Rights Reserved.</p>  
+    </div>
+</footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <script src="../quizzes/javascriptquiz.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="../scripts/jquery-3.2.1.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="../scripts/popper.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="../scripts/bootstrap.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
